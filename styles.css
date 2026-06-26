@@ -155,7 +155,7 @@ main {
   width: calc((100% - 1.5rem) / 3);
   padding: 0.95rem 0.75rem;
   border-radius: 14px;
-  background: var(--espresso);
+  background: var(--amber);
   color: var(--bg);
   border: 1.5px solid var(--border);
   box-shadow: 0 2px 8px rgba(61, 43, 26, 0.08);
@@ -166,6 +166,7 @@ main {
 }
 
 .link-card:hover {
+  background: var(--amber-dark);
   box-shadow: 0 6px 18px rgba(61, 43, 26, 0.14);
   transform: translateY(-2px);
 }
